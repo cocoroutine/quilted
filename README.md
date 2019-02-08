@@ -1,4 +1,4 @@
-# Quilted Resume™ (_version 0.1.1_)
+# Quilted Resume™ _v0.1.2_
 
 A spec for a minimal, iconographed resume = beautiful 
 
@@ -15,7 +15,7 @@ A resume should be like a fine dining menu. A description of a menu item should 
 It should be easy to visually parse content and sections. It should have a nice font and clean formatting. It should only contain everything that is necessary and nothing more. It should be tailored to the specific job.
 
 
-Quilted is an opinionated spec for a minimal, iconographed resume which makes it beautiful. Quilted aims to eliminate the often over content and complicated formatting of resumes by adhering to a single, minimal spec. Quilted uses modern iconography to reduce verbosity.
+Quilted™ is an opinionated spec for a minimal, iconographed resume which makes it beautiful. Quilted™ aims to eliminate the often over content and complicated formatting of resumes by adhering to a single, minimal spec. Quilted™ uses modern iconography to reduce verbosity.
 
 
 
