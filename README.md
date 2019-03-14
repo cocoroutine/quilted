@@ -1,10 +1,28 @@
-# Quilted Resume™ _v0.1.2_
+## Quilted™ Resume
 
-A spec for a minimal, iconographed resume = beautiful 
+A spec for a minimal, iconographed resume = beautiful
+
+
+To preview the format take a look at the sample resume.
 
 
 
-## Purpose
+
+### Version
+
+v0.2.1
+
+
+
+
+### Pyquilted
+
+Check out an implmentation of this spec at [pyquilted](https://cocoroutine/pyquilted)
+
+
+
+
+### Purpose
 
 Recruiters look at a lot of resumes. Interviewers do not have time to look at your resume before the interview starts. There are too many resume formats.
 
@@ -15,12 +33,12 @@ A resume should be like a fine dining menu. A description of a menu item should 
 It should be easy to visually parse content and sections. It should have a nice font and clean formatting. It should only contain everything that is necessary and nothing more. It should be tailored to the specific job.
 
 
-Quilted™ is an opinionated spec for a minimal, iconographed resume which makes it beautiful. Quilted™ aims to eliminate the often over content and complicated formatting of resumes by adhering to a single, minimal spec. Quilted™ uses modern iconography to reduce verbosity.
+Quilted is an opinionated spec for a minimal, iconographed resume which makes it beautiful. Quilted aims to eliminate the often over content and complicated formatting of resumes by adhering to a single, minimal spec. Quilted uses modern iconography to reduce verbosity.
 
 
 
 
-## Format
+### Format
 
 - Resume should be 1 page
 - Font should be sans-serif
@@ -39,12 +57,12 @@ Quilted™ is an opinionated spec for a minimal, iconographed resume which makes
 
 
 
-## Sections
+### Sections
 
-A Quilted resume should flow. Sections should be sorted in the order of importance and necessity.
+A Quilted resume should flow.
 
 
-The heading should always be the first section. Reason being—your resume needs to have an easy identifier i.e. your name and flair.
+The heading should always be the first section. Reason being—your resume needs to have an easy identifier i.e. your name.
 
 
 All content sections are optional. The content sections should be ordered by relevance to the job. All content sections should all use the same font. Each content section should be left iconographed.
@@ -57,13 +75,11 @@ Contacts should be the last section. Reason being—only after viewing your resu
 
 
 
-## Heading section
+#### Heading section
 
-The heading section has two types: a compact version and a complex version.
+The heading section has two types: a compact version and a complex version. The compact version holds at most 3 items and is center aligned. It occupies at most 2 lines. The complex version holds at most 5 items and is block justified. It occupies at most 3 lines.
 
-The compact version holds at most 3 items and is center aligned. It occupies at most 2 lines. The complex version holds at most 5 items and is block justified. It occupies at most 3 lines.
-
-The font can be a different font than the main content. The font should be smaller than the main content.
+The heading font can be a different font than the main content. The font should be smaller than the main content.
 
 
 #### Name (required)
@@ -75,15 +91,15 @@ Your name is required. It should be the first element. The font should be colore
 
 Titles are not a strong factor in determining if you are qualified for a position. They are made up and do not transfer from one company to another. You can optionally include it if you have a great title and looking for a similar position or a slight upgrade.
 
-The font should be gray. It should be positioned to the right of your name.
+The font should be gray. In a comple format if all item positions are taken it should be positioned adjacent to your name.
 
 
 #### Location (recommended)
 
-Location should be where you are seeking a job. It is not your home address. Location should only be a major metro area. The major metro area means you are seeking a position within the proper metro area. It should also have your intended form of travel as an icon.
+Location should be where you are seeking a job. It is not your home address. Location should only be a major metro area. The major metro area means you are seeking a position within that proper metro area. It should also have your intended form of travel as an icon.
 
 - NYC via Subway (_seeking positon only in NYC proper_)
-- Boston via Car 
+- Boston via Car
 
 Use of the word greater should inform you are looking for a position outside of or within the major metro area.
 
@@ -103,59 +119,61 @@ If you are seeking a remote position, then your location should be your origin. 
 
 #### Objective (optional)
 
-An objective is not a strong factor in determining if you are qualified for a position. There is no objective line that will guarantee you will get hired. If there was one, everyone would use it. It can be useful if you are looking for a specific position or have special requirements.
+An objective is not a strong factor in determining if you are qualified for a position. There is no objective line that will guarantee you will get hired. If there was one, everyone would use it. It can be useful if you are looking for a specific position or have special requirements like visa status.
 
 It should be at most a sentence long. Left aligned and used only in complex heading format. Font color should be black and same size as main content.
 
 
 #### Flair (optional)
 
-Flair can be anything that adds value to your resume. It can be a short phrase, a social media link, a blog link, a link to a portfolio, a git repo...etc. It is optional and should only be used when it's relevant to the job.
+Flair can be anything that adds value to your resume. It can be a short phrase, a social media link, a blog link, a link to a portfolio, a git repo...etc. It is optional and should only be used when it's relevant to the job. It can also be your visa requirements.
 
-It should be short. If it is a site, it should be iconographed left or right depending on your format. It should be clickable if it is a site.
-
-
+It should be short. If it is a site, it should be iconographed left or right depending on position. It should be clickable if it is a site.
 
 
-## Skills
+
+
+### Skills
 
 Skills section should be a compact section. Skills should be a comma separated lists in alphabetical order. Capital cased.
 
 
 
 
-## Education
+### Education
 
 Education should be a compact section. This content should be your highest level of education not counting high school. It should include the name of the school or training program. Major is optional, if it is relevant to the job. Adding the year is optional.
 
 
 
 
-## Work
+### Work
 
 Work is a complex section. The work section can contain several blocks. One for each job.
 
-The first item should be the dates you worked at a job. This should be gray and be left aligned. The dates should be separated by a n-dash. The second item should be the city and state of the company separated by a comma. It should be gray and right aligned in the same line. The third item should be the job description. It should include your title and company name separated by a comma.
+The first item should be the dates you worked at a job. This should be gray and be left aligned. The dates should be separated by a n-dash. The second item should be the  metro area of the company. Alternately it can city/state separate by a comma. It should be gray and right aligned in the same line.
 
-Finally it should include a list of slug lines describing your relevant achievements. Each slug line should start with a m-dash. Slugs lines should be short and do not have to be complete sentences. This should be indented sub-section.
+The third item should be the job description. It should include your title and company name separated by a comma. This should be indented.
+
+Finally it should include a list of slug lines describing your relevant achievements. Each slug line should start with a m-dash. Slugs lines should be short and do not have to be complete sentences. This should be further indented.
 
 
 
 
-## Projects
+### Projects
 
 Projects is a complex section. The Projects section can contain several blocks. One for each activity.
 
-The first item should be the name of the project left aligned. The second item should be the flair link. It should be on the same line and be right aligned. The color should be gray. It should be right iconographed.
+The first item should be the name of the project left aligned. The second item should be the flair link to the project. It should be on the same line and be right aligned. The color should be gray. It should be right iconographed.
 
-The third item should be the description. It should be a sentence long describing the project and it's relevance.
+The third item should be the description. It should be a sentence long describing the project. 
 
-Finally it can optionally include a list of slug lines describing your relevant achievements. Each slug line should start with a m-dash. Slugs lines should be short and do not have to be complete sentences. This should be indented sub-section.
-
-
+It can optionally include a list of slug lines describing your relevant achievements. Each slug line should start with a m-dash. Slugs lines should be short and do not have to be complete sentences. This should be indented.
 
 
-## Contacts
+
+
+### Contacts
 
 The font should be smaller than the main font. It can be a different font than the main content. The color should be a lighter shade of black. Contacts should be sorted in the order you wish to be contacted. Contacts should be equally spaced.
 
@@ -176,3 +194,9 @@ Social media, blog and git site handles can be included if it adds value to your
 
 There can be many icons representing different sites. If your handle is the same for many sites they be grouped together. Clicking on a grouped set of icons should only lead to the first of your sites.
 
+
+
+
+### Open Spec
+
+Anyone can freely use, modify and implement this spec.
